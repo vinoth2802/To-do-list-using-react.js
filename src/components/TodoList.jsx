@@ -23,7 +23,7 @@ const TodoList = () => {
     }
 
     const deleteTask = (taskid) => {
-        setTodoList(todoList.filter((task) => task.id != taskid));
+        setTodoList(todoList.filter((task) => task.id !== taskid));
     }
 
     const handleComplete = (id) => {

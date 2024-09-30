@@ -10,7 +10,7 @@ const TodoList = () => {
         setNewTask(event.target.value);
     }
     const addTask = () => {
-        if(newTask != "")
+        if(newTask !== "")
         {
             const task = {
                 id : todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
